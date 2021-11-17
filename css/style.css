@@ -25,7 +25,7 @@ header nav ul {
 }
 
 header nav ul li {
-  margin-left: 8rem;
+  margin-left: 7rem;
 }
 
 header nav ul li:first-child {
@@ -34,7 +34,7 @@ header nav ul li:first-child {
 
 header nav ul li a {
   font-family: 'Salsa', sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: var(--font-black);
 }
 
@@ -55,9 +55,11 @@ header nav ul li a {
   max-width: 70rem;
 }
 
-.sc-hero .txt h2 {
+.sc-hero .txt h1 {
   margin-bottom: 5rem;
   font-size: 3.3rem;
+  font-family: 'Salsa', sans-serif;
+  font-weight: 500;
 }
 
 .sc-hero .txt p {
@@ -75,4 +77,88 @@ header nav ul li a {
   width: 100%;
   max-width: 50rem;
   height: 30rem;
+  margin-bottom: 5rem;
 }
+
+.sc-hero .img-hero img {
+  border-radius: 20px;
+}
+
+.sc-hero .img-hero img:hover {
+  cursor: pointer;
+}
+
+/* section features */
+
+.features {
+  background: linear-gradient(rgba(15, 15, 15, 0.4), rgba(15, 15, 15, 0.4)), url("/img/Uberaba2.jpeg") ;
+  background-size: cover;
+  padding-top: 10.4rem;
+  padding-bottom: 12rem;
+  color: var(--font-white);
+}
+
+.features .area {
+  border-bottom: 1px solid #ffffff7a;
+  padding-bottom: 8.5rem;
+}
+
+.features .tittle {
+  display: flex;
+  flex-direction: column;
+}
+
+.features .tittle.center {
+  align-items: center;
+}
+
+.features .tittle.center h2 {
+  margin-bottom: 2.2rem;
+  font-size: 3.3rem;
+  font-family: 'Salsa', sans-serif;
+  font-weight: 500;
+}
+
+.features .icon {
+  width: 100%;
+  max-width: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features .icon img {
+  margin-bottom: 2rem;
+}
+
+.features .cards-cs {
+  display: flex;
+  width: 100%;
+  margin-top: 8rem;
+}
+
+.features .cards-cs h3 {
+  font-size: 2.2rem;
+  font-family: 'Salsa', sans-serif;
+  font-weight: 500;
+}
+
+.features .cards-cs p {
+  margin-top: 1.3rem;
+  font-size: 1.5rem;
+  margin-right: 2.5rem;
+}
+
+.features .cards-cs p:first-child {
+  margin-right: 0;
+}
+
+.features .area2 {
+  display: flex;
+  flex-direction: column; 
+  margin-top: 3rem;
+}
+
+.features .area2 .video {
+  margin: 4rem auto;
+}  
+
