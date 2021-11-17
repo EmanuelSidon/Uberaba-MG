@@ -1,0 +1,78 @@
+header {
+  width: 100%;
+  height: 8.8rem;
+  background-color: var(--color-header);
+  display: flex;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  max-width: 6rem;
+}
+
+header nav {
+  display: flex; 
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 8rem;
+}
+
+header nav ul li:first-child {
+  margin-left: 0;
+}
+
+header nav ul li a {
+  font-family: 'Salsa', sans-serif;
+  font-size: 1.8rem;
+  color: var(--font-black);
+}
+
+/* section hero */
+
+.sc-hero {
+  padding: 7.2rem 0;
+}
+
+.sc-hero .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sc-hero .txt {
+  width: 100%;
+  max-width: 70rem;
+}
+
+.sc-hero .txt h2 {
+  margin-bottom: 5rem;
+  font-size: 3.3rem;
+}
+
+.sc-hero .txt p {
+  max-width: 60rem;
+  line-height: 150%;
+  color: var(--font-text);
+}
+
+.sc-hero .txt p span {
+  font-size: 1.9rem;
+  font-weight: 900;
+  color: var(--font-black);
+}
+.sc-hero .img-hero {
+  width: 100%;
+  max-width: 50rem;
+  height: 30rem;
+}
